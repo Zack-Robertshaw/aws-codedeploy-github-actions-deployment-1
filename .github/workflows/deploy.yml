@@ -7,6 +7,9 @@ env:
   applicationfolder: spring-boot-hello-world-example
   AWS_REGION: us-east-1
   S3BUCKET: codedeploystack-webappdeploymentbucket-str3sbbrxsvn 
+  # s3 bucket comes from cloudformation> stacks > pick stack > output > DeploymentBucket
+  # GithubIAMRoleArn goes in github
+  # WebAppUrl  = public url
 
 
 jobs:
